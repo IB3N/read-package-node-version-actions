@@ -73,7 +73,7 @@ jobs:
         id: package-node-version
 
       - name: Show version number
-        run: echo "Version is ${{ steps.package-version.outputs.version }}"
+        run: echo "Version is ${{ steps.package-node-version.outputs.version }}"
         # Version is 12.13.x
 ```
 
